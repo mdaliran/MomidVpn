@@ -35,16 +35,11 @@ public class MomidVpnServer(private val port : Int) {
     private var handle: PcapHandle? = null
 
 
-
-
-
-
     companion object {
 
     }
-    
-    
-    
+
+
     init {
         udpHandler = UdpHandler(port)
         synchronized(availablePorts) {
