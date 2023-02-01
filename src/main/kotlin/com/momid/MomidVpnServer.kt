@@ -10,14 +10,12 @@ import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream
 import java.net.*
-import java.text.SimpleDateFormat
-import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeoutException
 import kotlin.collections.ArrayList
 
-public class Captu(private val port : Int) {
+public class MomidVpnServer(private val port : Int) {
 
     private var sourceMacAddress: MacAddress? = null
     private var destinationMacAddress: MacAddress? = null

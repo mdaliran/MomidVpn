@@ -6,7 +6,7 @@ import io.ktor.server.application.*
 
 fun main() {
 
-    Captu(55553).start()
+    MomidVpnServer(55553).start()
 
 
 
